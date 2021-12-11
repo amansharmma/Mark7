@@ -1,0 +1,55 @@
+:root{
+    --primary-color: aquamarine;
+    --text-color: Black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Corinthia:wght@700&family=Meow+Script&family=Merriweather:ital,wght@0,700;0,900;1,700&family=Ubuntu:wght@300;500&display=swap');
+footer,nav{
+    background-color: var(--primary-color);
+}
+header{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0rem;
+    color: var(--text-color);
+}
+body{
+    font-family: 'Corinthia';
+    margin: 0rem;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+#what{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+button{
+    margin-top: 2rem;
+    align-content: center;
+    padding: 0.5rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    border-radius: 0px 90px 0px 0px;
+}
+
+footer,main{
+margin: auto;
+padding: 1rem;
+max-width: 60%;
+}
+footer{
+    text-align: center;
+    color: var(--text-color);
+}
+#btn-translate{
+    margin-inline: 300px;
+}
