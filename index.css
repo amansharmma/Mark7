@@ -29,7 +29,10 @@ button{
     padding: 0.5rem 2rem;
     background-color: var(--primary-color);
     color: var(--text-color);
+
 }
+
+
 textarea {
     box-sizing: border-box;
     display: block;
@@ -52,4 +55,9 @@ footer{
 }
 #btn-translate{
     margin-inline: 300px;
+
 }
+#btn-translate:hover {
+    background-color: #4c6972;
+    color: white;
+  }
